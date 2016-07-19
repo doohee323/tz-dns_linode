@@ -1,6 +1,6 @@
-# Run Namesver on linode with vagrant
+# Run DNS Server on linode with vagrant
 
-install dns server for my own domain name with vagrant-linode plugin
+install DNS server for my own domain name with vagrant-linode plugin
 
 1. get LINODE_API_KEY from https://manager.linode.com/profile/api
 	export LINODE_API_KEY=Gn1rKs9Rdik7YKvwQE1JGG5rZ05a~~~
