@@ -1,12 +1,13 @@
-# Run DNS Server on linode with vagrant
+# Run DNS Server with vagrant-linode plugin
 
 install DNS server for my own domain name with vagrant-linode plugin
 
 1. get LINODE_API_KEY from https://manager.linode.com/profile/api
 	export LINODE_API_KEY=Gn1rKs9Rdik7YKvwQE1JGG5rZ05a~~~
 
-2. install plugin
-	tz-dns_linode> vagrant plugin install vagrant-linode
+2. install vagrant-linode plugin
+	tz-dns_linode> vagrant-linode plugin install vagrant-linode
+	cf. https://www.linode.com/docs/applications/configuration-management/vagrant-linode-environments
 
 3. modify domain with yours
 	ex) /tz-dns_linode/_support/vagrant/nserver/nserver.sh
